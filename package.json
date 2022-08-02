@@ -3,7 +3,7 @@
     "description": "Assertion utilities",
     "author": "Michael Ko",
     "email": "koyote130708@gmail.com",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "GNU LGPLv3",
     "keywords": ["assertion", "type-checking"],
     "main": "index.js",
