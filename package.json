@@ -1,0 +1,26 @@
+{
+    "name": "go-expect",
+    "description": "Assertion utilities",
+    "author": "Michael Ko",
+    "email": "koyote130708@gmail.com",
+    "version": "0.1.0",
+    "license": "GNU LGPLv3",
+    "keywords": ["assertion", "type-checking"],
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha -u tdd test/expectTest.js",
+        "test-coverage": "nyc --reporter=html mocha -u tdd test/expectTest.js",
+        "doc": "documentation build src/expect.js -f md -o README.md",
+        "doc-html": "documentation build src/expect.js -f html -o docs"
+    },
+    "dependencies": {
+        "go-types": "1.1.0"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^10.0.0",
+        "documentation": "^13.2.5",
+        "nyc": "^15.1.0"
+    },
+    "engine": "node >= 0.10"
+}
